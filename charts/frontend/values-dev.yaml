@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  tag: "alpine"
+ingress:
+  enabled: false
+resources:
+  limits:
+    cpu: 250m
+    memory: 128Mi
+  requests:
+    cpu: 50m
+    memory: 32Mi

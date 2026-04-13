@@ -1,0 +1,13 @@
+replicaCount: 3
+image:
+  tag: "18-alpine"
+ingress:
+  enabled: true
+  host: api.prod.example.com
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 500m
+    memory: 512Mi

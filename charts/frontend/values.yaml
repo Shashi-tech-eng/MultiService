@@ -2,10 +2,15 @@ replicaCount: 2
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "alpine"
 service:
   type: ClusterIP
   port: 80
+ingress:
+  enabled: false
+  className: nginx
+  host: app.example.com
+  annotations: {}
 resources:
   limits:
     cpu: 500m

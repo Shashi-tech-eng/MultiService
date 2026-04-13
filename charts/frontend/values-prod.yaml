@@ -1,0 +1,13 @@
+replicaCount: 3
+image:
+  tag: "alpine"
+ingress:
+  enabled: true
+  host: app.prod.example.com
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 200m
+    memory: 256Mi

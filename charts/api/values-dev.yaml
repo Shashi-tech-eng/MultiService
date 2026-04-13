@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  tag: "18-alpine"
+ingress:
+  enabled: false
+resources:
+  limits:
+    cpu: 250m
+    memory: 256Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
