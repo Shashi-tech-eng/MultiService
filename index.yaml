@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  api:
+  - apiVersion: v2
+    appVersion: 0.9.3
+    created: "2026-04-12T20:18:36.59046-05:00"
+    description: Backend API service
+    digest: d946ecbdc37641341eae5e96b426985863e75024d54afd717b3f2071bc425c1d
+    name: api
+    type: application
+    urls:
+    - https://shashi-tech-eng.github.io/MultiService/api-1.0.0.tgz
+    version: 1.0.0
+  frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-12T20:18:36.590672-05:00"
+    description: Frontend service
+    digest: 5ed5e204e1b1cba5e6b119a2f7b78ac6e0140d4b3b92becfb288777a52af1749
+    name: frontend
+    type: application
+    urls:
+    - https://shashi-tech-eng.github.io/MultiService/frontend-1.0.0.tgz
+    version: 1.0.0
+  worker:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-12T20:18:36.592727-05:00"
+    description: Background worker service
+    digest: d075572ba4b40097b282a195669847011567cb5ea43cf5eee0a6b53b1149371c
+    name: worker
+    type: application
+    urls:
+    - https://shashi-tech-eng.github.io/MultiService/worker-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-04-12T20:18:36.589529-05:00"
