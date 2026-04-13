@@ -1,0 +1,15 @@
+apiVersion: v2
+name: app-umbrella
+description: Full application stack
+type: application
+version: 1.0.0
+dependencies:
+  - name: api
+    version: ">=1.0.0"
+    repository: "https://shashi-tech-eng.github.io/MultiService"
+  - name: frontend
+    version: ">=1.0.0"
+    repository: "https://shashi-tech-eng.github.io/MultiService"
+  - name: worker
+    version: ">=1.0.0"
+    repository: "https://shashi-tech-eng.github.io/MultiService"
