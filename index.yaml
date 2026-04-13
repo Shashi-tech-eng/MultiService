@@ -3,34 +3,54 @@ entries:
   api:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2026-04-12T21:54:16.837907-05:00"
+    created: "2026-04-13T03:21:19.306613703Z"
+    description: Backend API service
+    digest: c0c296325e15c0cf73c82cc7b6bc7280380025ffbe216f30aed8915a20f4bed0
+    name: api
+    type: application
+    urls:
+    - https://Shashi-tech-eng.github.io/MultiService/api-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 0.9.3
+    created: "2026-04-13T03:21:19.306398104Z"
     description: Backend API service
     digest: d946ecbdc37641341eae5e96b426985863e75024d54afd717b3f2071bc425c1d
     name: api
     type: application
     urls:
-    - https://shashi-tech-eng.github.io/MultiService/api-1.0.0.tgz
+    - https://Shashi-tech-eng.github.io/MultiService/api-1.0.0.tgz
     version: 1.0.0
   frontend:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-12T21:54:16.838013-05:00"
+    created: "2026-04-13T03:21:19.306922159Z"
+    description: Frontend service
+    digest: 6a53567c2a64c73a00293640fce966a91762d7dcde930716d352bed1795db345
+    name: frontend
+    type: application
+    urls:
+    - https://Shashi-tech-eng.github.io/MultiService/frontend-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-13T03:21:19.306749404Z"
     description: Frontend service
     digest: 5ed5e204e1b1cba5e6b119a2f7b78ac6e0140d4b3b92becfb288777a52af1749
     name: frontend
     type: application
     urls:
-    - https://shashi-tech-eng.github.io/MultiService/frontend-1.0.0.tgz
+    - https://Shashi-tech-eng.github.io/MultiService/frontend-1.0.0.tgz
     version: 1.0.0
   worker:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-12T21:54:16.838108-05:00"
+    created: "2026-04-13T03:21:19.30709118Z"
     description: Background worker service
-    digest: d075572ba4b40097b282a195669847011567cb5ea43cf5eee0a6b53b1149371c
+    digest: e65b3cc2734c2e3da42ba0a0b6803fc69b94e06d249d1067931021ae6d4420d9
     name: worker
     type: application
     urls:
-    - https://shashi-tech-eng.github.io/MultiService/worker-1.0.0.tgz
+    - https://Shashi-tech-eng.github.io/MultiService/worker-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-12T21:54:16.835976-05:00"
+generated: "2026-04-13T03:21:19.306036979Z"
